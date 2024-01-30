@@ -835,7 +835,7 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: auto;
 }
 
 @media (min-width: 767px) {
