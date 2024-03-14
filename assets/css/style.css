@@ -761,6 +761,7 @@ a:hover {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
+  animation: scaleIn 2s ease-in-out forwards;
 }
 
 @media (min-width: 768px) {
@@ -818,6 +819,14 @@ a:hover {
 
 .hero-single .breadcrumb a {
   color: #fff;
+}
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /*--------------------------------------------------------------
